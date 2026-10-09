@@ -10,7 +10,7 @@ public static class SqlConnectionFactory
         "Integrated Security=True;" +
         "Encrypt=True;" +
         "TrustServerCertificate=True;";
-
+                                                                                                          
     public static SqlConnection CreateConnection()
     {
         return new SqlConnection(ConnectionString);
